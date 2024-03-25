@@ -1,0 +1,151 @@
+body {
+    /*width: 99%; */
+     background-color: #3f4b4e; */
+	 scrollbar-color: #777
+}
+
+::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #777;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 1px solid #999;  /* creates padding around scroll thumb */
+}
+
+#left_side {
+    float:left;
+    margin-left: 10px;
+    width: 250px;
+    height: 500px;
+    background-color: green;
+}
+
+    #nav_list_box {
+        width: 100%;
+        height: 100%;
+    }
+
+    #subject_list {
+        height: 100%;
+    }
+
+    select {
+        background-color: #222;
+        color: #999;
+        width: 100%;
+    }
+
+    option {
+        white-space: pre-wrap;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
+        /*background-color: #222;*/
+        
+        color: #999;
+    }
+
+#right_side {
+    float: left;
+    margin-left:25px;
+	background-color: #888888;
+    width: 500px;
+}
+
+    textarea {
+        background-color: #222;
+        color: rgb(199, 199, 199);
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+input[type=text] {
+    max-height:24px;
+    width: 150px; 
+    
+ 	color: #999; 
+ 	background-color:#444; 
+	
+}
+
+#open_file_dialog {
+    visibility: hidden;
+    width: 200px;
+}
+
+/* MENU */
+
+#menubar {
+    width: 100%;
+    float: left;
+    height: 40px;
+    margin-bottom:20px;
+    background-color: #888888;
+}
+
+.dropbtn {
+    background-color: darkgrey;
+    color: black;
+    width: 75px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:darkgray;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-content a:hover {
+    background-color:gray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+#menu_delete_record {
+    background-color:red;
+}
+
+#menu_delete_record:hover {
+    background-color:purple;
+    color:white;
+}
+
+button {
+	background-color:#555;
+	color: #999
+}

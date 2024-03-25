@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link rel="stylesheet" href="./code/index.css">
+        <title>SimpleKB 0.1</title>
+		<meta charset="UTF-8">
+	</head>
+
+
+	<body id="bodyid" onresize="window_sizer()">
+
+		<div id="menubar">
+
+			<div class="dropdown">
+				<button class="dropbtn">File</button>
+				<div class="dropdown-content">
+					<a href="#" id="menu_open">Open</a>
+					<a href="#" id="menu_save">Save</a>
+					<a href="#" id="menu_new">New</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">Records</button>
+				<div class="dropdown-content">
+					<a href="#" id="menu_add_record">Add Record</a>
+					<a href="#" id="menu_edit_record">Edit Record</a>
+					<a href="#" id="menu_delete_record">Delete Selected Record</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">Tools</button>
+				<div class="dropdown-content">
+					<a href="#" id="menu_merge_json">Merge JSON data</a>
+				</div>
+			</div>
+			
+			<label>     Search:  </label>
+			<input type="text" id="input_search">
+
+			<button id="button_clear">Clear</button>
+
+		</div>
+
+
+		<div id="left_side">
+			<div id="nav_list_box">
+				<select name="subject_list" id="subject_list" size="1000">
+				</select>			
+			</div>
+			
+			<div id="add_remove_buttons">
+
+			</div>
+		</div>
+
+		<div id="right_side">
+			<textarea id="text_output" name="text_output" rows="4" cols="50"></textarea>
+		</div>
+
+
+		<input type="file" id="open_file_dialog">
+
+		<script src="./code/index.js"></script>
+	</body>
+</html>
